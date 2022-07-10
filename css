@@ -1,0 +1,34 @@
+*{
+    padding: 0;margin: 0;
+}
+.main{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+
+height: 89.3vh;
+width: 100vw;
+
+}
+#nav{
+    font-family: 'Lobster', cursive;
+    background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+}
+.search {
+    text-align: center;
+    padding-top: 20vh;
+}
+.content1{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: bisque;
+
+    
+}
+.content2{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color:  wheat;
+    
+}
