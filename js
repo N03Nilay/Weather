@@ -1,4 +1,4 @@
-   const city = document.getElementById('input');
+    const city = document.getElementById('input');
         const searchbtn = document.getElementById('search');
         const temp = document.getElementById('temperature');
         const hum = document.getElementById('humidity');
@@ -19,6 +19,8 @@
                             document.getElementById('error').innerHTML = `Please try with different city`;
                         }
                         else {
+
+
                             const temperature = (data.main.temp - 273.15).toFixed(2);
 
                             const pressure = (data.main.pressure * 100 * 0.0002953).toFixed(2);
@@ -41,3 +43,5 @@
             document.getElementById('error').innerHTML = ``;
 
         })
+
+
